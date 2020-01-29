@@ -2,3 +2,4 @@ Ovo je Slobin prvi tekst dokument.
 1. Prvi red (čisto radi promene).
 2. Drugi red.
 3. Ovaj red je dodala Shmizllica.
+4.Novi test
