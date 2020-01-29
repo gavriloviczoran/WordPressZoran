@@ -10,3 +10,7 @@ Ovo je Slobin prvi tekst dokument.
 
 
 Ovo je promena na novoj grani. 
+
+
+
+Ovo je nova promena posle 3 min. 
