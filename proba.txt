@@ -1,1 +1,3 @@
 Ovo je Slobin prvi tekst dokument.
+1. Prvi red (čisto radi promene).
+2. Drugi red.
