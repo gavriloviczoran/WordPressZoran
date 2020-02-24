@@ -1,0 +1,260 @@
+﻿24.02.2020. Sloba (Word Press), poslaće nam sve ove komande koje radimo danas.
+
+- Prvo se svako uloguje na svoj GitHub.
+- Pokrenuti Git Bash i u njemu ukucati:
+git --version
+Ls - služi za listanje svih fajlova & foldera;
+cd Desktop - za prikazivanje na desk-topu;
+
+- Idemo na svoj GitHub i Clone or download: 
+- iskopiramo putanju na Git Bash
+git clone https://github.com/gavriloviczoran/WordPressZoran.git 
+dobijemo naš repozitorijum na desk-topu
+(moramo pomoću desnog klika, neće da radi sa Ctrl+V);
+
+cd WordPressZoran/
+IRC_client@IRC-XX MINGW64 ~/Desktop/WordPressZoran (master)
+
+$ touch drugi.txt
+- napraviće u Folderu: WordPressZoran, novi fajl koji se zove: drugi.txt
+
+$ notepad proba.txt
+- otvoriće nam direktno fajl: proba.txt
+
+git status - ako je neki crveni fajl...
+
+git commit -m'Poruka za prvi fajl'
+
+git config --list
+
+git config - komanda za definisanje (pravljenje) user name
+- izlistaće nam:
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+
+
+git config --global user.name 'gavriloviczoran'
+
+
+
+git config --global user.email 'gavrilovic163@gmail.com'
+
+
+git commit -m'Izmene'
+- ispisaće: 
+[master 1f79b66] Izmene
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 drugi.txt
+
+Nastavak posle pauze (19:15):
+
+git status
+
+git help - daje nam objašnjenje;
+
+git add --help - isto daje nam objašnjenje;
+
+git remote -v 
+
+git push origin master
+- ispisaće: 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 265 bytes | 265.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gavriloviczoran/WordPressZoran.git
+   ee5b04e..1f79b66  master -> master
+
+i otvori ti novi windows prozor u pretraživaču:
+file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/git-add.html
+
+otvaramo novi fajl u svom GitHub-u:
+24.02.2020. Novi fajl
+otkucaj u Git Bash-u:
+git pull
+- ispisaće: 
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 692 bytes | 46.00 KiB/s, done.
+From https://github.com/gavriloviczoran/WordPressZoran
+   1f79b66..5393278  master     -> origin/master
+Updating 1f79b66..5393278
+Fast-forward
+ 24.02.2020. Novi fajl | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 24.02.2020. Novi fajl
+
+
+
+
+git log
+- ispisaće sve što je rađeno do danas:
+commit 539327801b4d2cc4fe2e1f58f1dbe0ef09a234f1 (HEAD -> master, origin/master, origin/HEAD)
+Author: Zoran Gavrilovic <60346142+gavriloviczoran@users.noreply.github.com>
+Date:   Mon Feb 24 19:45:38 2020 +0100
+
+    Create 24.02.2020. Novi fajl
+
+commit 1f79b664ef77d02e6e8b3ab2bcfe11222c555be0
+Author: gavriloviczoran <gavrilovic163@gmail.com>
+Date:   Mon Feb 24 18:47:20 2020 +0100
+
+    Izmene
+
+commit ee5b04e78e8176fa068f5475f8d8740c4a3707fe
+Merge: 8bac7b0 41f9807
+Author: Zoran Gavrilovic <60346142+gavriloviczoran@users.noreply.github.com>
+Date:   Wed Jan 29 20:14:48 2020 +0100
+
+    Merge pull request #3 from shmizllica/master
+
+    Nova izmena
+
+commit 41f980700c47e751af82e79e8bb840dfc084fb58
+Merge: 06705c8 8bac7b0
+Author: Zoran Gavrilovic <60346142+gavriloviczoran@users.noreply.github.com>
+Date:   Wed Jan 29 20:14:24 2020 +0100
+
+    Merge branch 'master' into master
+
+commit 06705c813ecb90a63813e6d24ef77ea6526c313d
+Author: shmizllica <60014931+shmizllica@users.noreply.github.com>
+Date:   Wed Jan 29 19:31:53 2020 +0100
+
+    test2.txt
+
+    Ubacila sam novi red.
+
+commit 8bac7b0f8f254b2cfe4ddf5c3556ddd95a0dc997
+Merge: 6760587 dac113c
+Author: Zoran Gavrilovic <60346142+gavriloviczoran@users.noreply.github.com>
+Date:   Wed Jan 29 19:14:58 2020 +0100
+
+    Merge pull request #2 from dalibormarkovic/master
+
+    Update proba.txt
+
+commit dac113c4ca0867be1c8a65686be4a3d7b28a8ae5
+Author: Dalibor Markovic <60052021+dalibormarkovic@users.noreply.github.com>
+Date:   Wed Jan 29 19:02:35 2020 +0100
+
+    Update proba.txt
+
+    menjao sam treci red
+
+commit 83ea5922bd3e7a4514c3938be2e40408dbcaf8cc
+Author: shmizllica <60014931+shmizllica@users.noreply.github.com>
+Date:   Wed Jan 29 18:58:34 2020 +0100
+
+    Update proba.txt
+
+commit 6760587d334eef2a4de4322fcbe4d4fcbed23897
+Author: Zoran Gavrilovic <60346142+gavriloviczoran@users.noreply.github.com>
+Date:   Wed Jan 29 18:53:48 2020 +0100
+
+    Update proba.txt
+
+commit e14009557f1b2099674b51e84a614e2a06a2e4af
+Author: Zoran Gavrilovic <60346142+gavriloviczoran@users.noreply.github.com>
+Date:   Wed Jan 29 18:48:13 2020 +0100
+
+    Add files via upload
+:
+
+
+
+
+git add . - TAČKA označava sve fajlove
+
+
+
+AKO NEŠTO NE RADI KAKO TREBA U Git Bash-u, UGASIŠ GA I POKRENEŠ PONOVO - ZAPAMTIĆE SVE (NEĆE SE IZGUBITI SVE ŠTO SI VEĆ RADIO).
+
+git branch -a
+- ispisaće sve postojeće grane:
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+
+
+
+POSLAĆE Sloba objašnjenje!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
