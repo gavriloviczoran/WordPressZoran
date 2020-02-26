@@ -1,0 +1,65 @@
+﻿26.02.2020. Sloba WordPress
+
+Otvaramo novi repozitorijum koji služi da podignemo sajt na GitHub-u.
+
+Okucaj neki html fajl i ubaci ga u taj novi repozitorijum.
+VODITI RAČUNA da naziv html fajla bude jedna reč (ili više spojenih reči sa crticom)!
+(u suprotnom neće funkcionisati otvaranje)
+
+Napravi novi Branch: grana-za-sajt
+
+Settings > Branches > grana-za-sajt
+
+MNOGO TREBA DA SE ULAZI > IZLAZI (u podešavanjima) i ne mogu da pratim predavanje & kucam.
+
+Choose a theme
+
+I pauza
+
+Idemo na Git Bash:
+Uđi na svoj repozitorijumu u GitHub-u: WordPressZoran
+
+WordPressZoran
+https://github.com/gavriloviczoran/WordPressZoran.git
+
+Pravimo tri nova fajla:
+touch 1.txt 
+touch 2.txt
+touch 3.txt  
+
+git add .
+
+git status
+ 
+git commit -m"Neki komentar"
+
+.gitignore
+git status
+notepad .gitignore
+(upisati u notepad-u koji nam otvori u GitHub-u sve one fajlove koje nećemo da se upišu)
+Cilj nam je da u .gitignore se vide samo fajlovi koje želimo.
+
+git push
+
+Ne može da se ignoriše - nije trebalo sa .add!
+
+
+rm 
+služi za brisanje 
+
+
+Otvoriti novi prozor (u comandprompt-u):
+cmd.exe
+ipconfig /all
+ipconfig /release
+ipconfig /renew
+ping preradadrveta.000webhostapp.com
+ping cite.edu.rs
+
+
+
+
+
+
+
+
