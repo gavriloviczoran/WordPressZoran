@@ -1,0 +1,19 @@
+﻿28.02.2020. Sloba WordPress
+ALEKSA JE KUCAO "BUKVALNO" SVE ŠTO JE SLOBA PREDAVAO DANAS!
+Ispisaće nam komande Sloba za vikend.
+
+Radimo u Command Prompt-u:
+
+https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/
+
+ping www.atptour.com
+(brzina podataka)
+
+pathping atptour.com
+
+CEO optimizacija:
+- brzina učitavanja je jako BITNA!
+- mapa sajta (pregled)
+- naslov teksta je jako bitan (smisleno, sličan ključnim rečima)
+- 
+
