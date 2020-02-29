@@ -1,0 +1,80 @@
+Beleske sa Predavanja Mreza i SEO - 28.2.2020. (Sloba Word Press)
+
+PRVI CAS - MREZA
+
+Radili u Command Prompt-u
+
+ipconfig /all
+
+Neka konfiguracija internet kartice i DNS-a
+
+Rucno podesavanje DNS-a
+
+Pysical Addres adresa mrezne kartice na racunaru, ne moze da se menja.
+Ispisana je u heksadecimalnom sistemu od 0 do F.
+
+Prvi deo ime proizvodjaca drugi deo je deo kartice tj. zavisi od racunara.
+
+ping pa bilo koju url. Moze rts. probaj sa google.com. Tesiramo odziv servera
+
+ping ww.atptour.com
+
+www.atptour.com.cdn.couldflare.net je pointer, [104.19.236.44] je ip adresa koju DNS povezuje sa domenom.
+
+Od malih vrednosti ms odziv je dobar, preko 100ms nesto nije dobro. Ove vrednosti oznacavaju samo odziv sajta ne samo ucitavanje. Za ucitavanje je potrebno nekoliko sekundi.
+
+IP LOCATION nam pokazuje lokaciju hosta na mapi.
+
+tracert pokazuje putanju kroz mreze i ispituje svaki rutet. Od naseg rutera do servera koji hostuje sajt.
+
+10.x.x.xx.x
+172.x.x.x.x
+192.x.x.x.x
+
+- se dodeljuju kucama, zato nekoliko prvih pocinju sa tim brojevima. Sve drzavne ustanove dobijaju optiku, opticke kablove.
+
+152ms je los odziv.
+
+pathping radi na svakom linku. Crvene tackice su ruteri. Trace root ide ka jednom pa se vrati. patping ispobava svaku vezu izmedju rutera.
+
+550 sekundi ti je bilo pa sam ugasio. Proverava lokaciju rutera sa ip location. Taj tracert obidje ceo svet i vrati se na nasu lokaciju na nekoliko mili sekundi, putuje brzinom svetlosti. Nece to skoro, treba da ucita i testira sve rutere.
+
+Brzina sajta zavisi od odziva, da je dobro uradjena baza podataka plus brzina odziva ucitavanja sajta. Brzina ocitavanja utice na rejting(rating) rangiranja sajta u pretrazivacima. CRTL + C da prekines taj proces.
+
+Tranica ucitava pravila za dodavanje lozinke lokalno na nasem sajtu a ne preko servera. To sve pomalo gusi brzinu sajta.
+
+
+DRUGI CAS - SEO
+
+Search engine optimization, znaci optimizacija sajta za pretrazivace. Postoje dva nacina za uredjivanje sajta, jedna je unutrasnja a druga je da s polja uticemo da iskocimo na bolje mesto u pretrazi.
+
+Optimizacija unutar sajta
+
+Mapa sajta je sema sajta sa kljucnim stvarima na sajtu, ona je bitna za optimizaciju. Najbitnija stvar su kljucne reci tj tagovi, sto vise kljucnih reci ubacimo to je bolje. Korisno je ubacivati ih u svaki post, neke reci kojih nema cesto, usko povezano sa sajtom, npr ako je IT-prekv ne treba staviti internet jer tih reci ima mnogo. Ako imamo neke kljucne reci korisno je pominjati ih u tekstu stranice ili posta.
+
+URL treba da bude pitak, smislen.
+
+Veoma bitan je naslov teksa, da bude smislen i da bude slican kljucnim recima. Naslov teksa treba biti u hedingu <h1-6> a ne <p>. Korisno je imati linkove u okviru clanaka, koji vode ka drugima i ka nama.
+
+Pritisnes alt + tab pa pustis tab za multitask.
+
+Meta tagovi trebaju da imaju opis, deskripciju.
+
+Kljucne reci je bitno boldovati sa <strong> ili samo boldovati u WordPress-u. Podnaslove takodje postavljati u heding. Ponekad je dobro imati sliku ili video u tekstu, sa alt tagom.
+<img src='path/to/file.jpg' alt='opis slike'>
+
+Veoma bitna stvar su komentari i forum cak i na drugim sajtovima. Veoma se prati rejting pominjanja na forumu. Cak postoje i IT firme u Srbiji gde su ljudi zaposleni da spominju sajtove na odredjenim forumima.
+
+Treba i voditi racuna o nazivu domena, mada naziv domena ne utice mnogo na mesto u pretrazi. Cak i ukoliko neko napise tacno ime naseg sajta, on nece izaci u pretrazi ako nije dobro optimizovan.
+
+Takodje je bitno povezivanje sa drustvenim mrezama.
+
+Sada cemo instalirati program za SEO. Sloba ce napraviti post gde ce ispostovati sva ova pravila kao primer za dobru optimizaciju.
+
+To je taj program na za SEO, kao plug-in na sajtu. Title separator, sa kojim simbolom ce zameniti space u google search-u, obicno se uzima minus < - >.
+
+Date in Google Preview, onom opcijom da li ce se datum pokazati u pretrazi. Sve te opcije postje i poslebno za svaki objekat.
+
+Beardcrumbs settings sluzi da se osavaljaju tragovi na sajtu gde je bio koji korisnik, na kom delu sajta. Koristi se za dobijanje informacija koji se delovi sajta najzanimljivi i najdosadniji korisnicama.
+
+RRS dozvoljava povlacenje posta drugim korisnicima ali ostavlja ime autora u kodu.
