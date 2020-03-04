@@ -1,0 +1,20 @@
+﻿04.03.2020. Sloba WordPress
+Velja snimao video SVE ŠTO JE SLOBA PREDAVAO DANAS!
+Ispisaće nam Sloba za vikend.
+
+Nastavljamo sa CEO optimizacijom:
+
+
+Prelazimo još jednom WordPress svi zajedno:
+- Dashboard;
+- Edit Post (instalirati Plugin "Elementor", videti skriptu koju sam poslao): 
+1. Koristiti OBAVEZNO hedinge zbog CEO (da ne budu paragrafi);
+2. LINKOVATI TEKST;
+3. Dodati neki video sa youtube-a;
+4. Ubaciti insert read more tab (CONTINUE READING);
+5. Responsive (za računare i mobilne telefone);
+
+Sve je snimljeno iz dva dela (do pauze i od pauze do kraja predavanja).
+
+Данашње предавање, све што је Слоба предавао имате у видео туторијалу, Directed by: бата Веља & бата Зоки, поставиће Веља код њега на github.
+
