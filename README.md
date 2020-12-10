@@ -69,12 +69,3 @@ console.log(z);
 }
 stepenBroja(3,2);
 
-
-
-
-
-
-
-
-
-
